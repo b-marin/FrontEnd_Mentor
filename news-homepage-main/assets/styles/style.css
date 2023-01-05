@@ -1,0 +1,153 @@
+*{  
+    margin: 0;
+    font: "inter";
+    text-decoration: none;
+    list-style: none;
+}
+body{    
+    padding: 30px 150px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+main .container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    
+}
+
+main .container a{
+    text-decoration: none;
+    color : #000;
+}
+
+main #main-container_1{
+    font-size: 64px;
+}
+
+main #main-container_2{
+    padding-right: 30px;
+    font-size: 15px;
+    justify-content: right;
+    gap: 15px; 
+}
+
+.grid{
+    width: 100%;
+    display: grid;
+    gap:10px;
+    grid-template-columns: 2fr 1fr;
+}
+.row{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    grid-template-areas:
+        "a b"
+        "a c";
+}
+.row h1{ 
+    padding: 10px;
+    margin: auto;
+    font-size: 56px;
+    grid-area: a;
+}
+
+.row p{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    grid-area: b;
+}
+
+.row .button{
+    background-color: #F15D51;
+    font-size: 20px;
+    margin: auto 0;
+    grid-area: c;
+    width: 120px;
+    padding: 10px;
+}
+
+.grid .button a{
+    color: #fff;
+    padding: 16px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.item-2{
+    background-color: #00001a;
+    color:#fff;
+    height: 100%;
+}
+
+.item-2 div{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+}
+
+.item-2 div h2{
+    font-size: 36px;
+    height: 50px;
+    color: #E9AA52;
+}
+
+.item-2 div h4{
+    font-size: 20px;
+    height: 30px;
+}
+
+.item-2 div p{
+    height: 30px;
+    font-size: 14px;
+    padding-top: 15px;
+    color: #979797;
+}
+
+.item-2 hr{
+    margin: auto;
+    width: 95%;
+    color: #979797;
+}
+
+footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.footer-contains{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.footer-contains img{
+    margin: auto;
+    width: 120px;
+    height: 100px;
+}
